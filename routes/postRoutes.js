@@ -7,7 +7,7 @@ const {
   updatePost,
   deletePost,
   searchPosts
-} = require("../controllers/postcontroller");
+} = require("../controllers/postController");
 
 const {authMiddleware} = require("../middleware/authMiddleware");
 const validate = require("../middleware/validate");
